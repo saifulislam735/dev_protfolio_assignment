@@ -136,3 +136,24 @@ header{
     height: 50px;
     margin-bottom: 24px;
 }
+.mindset-section{
+    margin: 0px 230px 130px;
+    text-align: left;
+    background-image: url(../images/gradient1.png),url(../images/watch.png);
+    /* position: absolute; */
+    width: 1140px;
+    height: 300px;
+    left: 230px;
+    top: 2221.96px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    border-radius: 8px;
+    padding: 59px 617px 59px 64px;
+}
+.mindset-section h4{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
