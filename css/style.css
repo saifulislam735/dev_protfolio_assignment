@@ -82,4 +82,12 @@ header{
 }
 .failure-section-right_div_check p{
     margin-bottom: 8px;
+
+}
+.failure-section-right_div_check img{
+    width:2px;
+    height: 3px;
+}
+.fa-check{
+    color:#16D887;
 }
