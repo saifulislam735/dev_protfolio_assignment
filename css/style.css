@@ -42,3 +42,18 @@ header{
     text-decoration: none;
     padding: 20px 25px;
 }
+.failure-section{
+    display: inline-flex;
+    width: 1070px;
+    height: 720px;
+    margin: 130px 320px 130px 205px;
+}
+.failure-section-bgp{
+    background-image: url(../images/person.png);
+    height: 720px;
+    width: 560px;
+}
+.failure-section-right_div{
+    text-align: right;
+
+}
