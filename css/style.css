@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans';   
 }
 header{
     background-image: url(../images/banner/banner3.png);
@@ -12,7 +13,6 @@ header{
 
 .banner_content{
     text-align: right; 
-    font-family: 'Work Sans';   
     font-style: normal;
     padding: 215px 230px 365px 845px;
 }
@@ -22,7 +22,7 @@ header{
     color: #FFFFFF;
     margin-bottom: 25px;
 }
-.banner-paragraph{
+.banner-paragraph,.failure-section-right_div_paragraph{
     text-align: justify;
     font-weight: 400;
     font-size: 16px;
@@ -43,17 +43,43 @@ header{
     padding: 20px 25px;
 }
 .failure-section{
-    display: inline-flex;
+    display: flex;
     width: 1070px;
     height: 720px;
-    margin: 130px 320px 130px 205px;
+    padding: 130px 320px 130px 205px;
 }
 .failure-section-bgp{
     background-image: url(../images/person.png);
+    background-size: contain;
     height: 720px;
-    width: 560px;
+    width: 50%;
+    background-repeat: no-repeat;
+
+    
 }
 .failure-section-right_div{
-    text-align: right;
+    width: 50%;
+    height: 100%;
+    padding: 235px 10px 83px 5px;
+    margin-left: 80px;
+}
+.failure-section-right_div_heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 23px;
+}
+.failure-section-right_div_paragraph{
+    color: #444343;
+    margin-bottom: 16px;
 
+}
+.failure-section-right_div_check{
+    width: 349px;
+    height: 160.14px;
+    color: #444343;
+}
+.failure-section-right_div_check p{
+    margin-bottom: 8px;
 }
