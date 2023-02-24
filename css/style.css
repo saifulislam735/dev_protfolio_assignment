@@ -103,6 +103,7 @@ header{
 
 .my-plan-section{
     width: 100%;
+    margin-bottom: 100px;
 }
 
 .plan_heading{
@@ -120,11 +121,11 @@ header{
     width:100%;
     height: 205px;
     display:flex;
-    margin-left: 150px;
+    margin-left: 180px;
     text-align: center;
 } 
 .plan_skill_develop_quater{
-    padding: 0px 50px;
+    padding: 0px 45px;
 }
 .plan_skill_develop h5{
     font-size: 30px;
@@ -143,21 +144,23 @@ header{
 
 } 
 .plan_skill_develop div img{
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     margin-bottom: 24px;
 }
 
             /* mindset-section */
             
 .mindset-section{
-    
+    background:linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), 
+    url(../images/watch.png);
     width:1140px;
     height: 300px;
-    /* margin: 0px 230px 130px 230px; */
     margin-left: 230px;
     border-radius: 8px;
     background-color: #005FAC;
+    
+    /* border-radius: 8px; */
 
 }
 .mindset-section h4{
@@ -247,3 +250,5 @@ header{
     color: white;
     margin-bottom: 50px;
 }
+
+            /* done */
