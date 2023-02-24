@@ -14,7 +14,7 @@ header{
 .banner_content{
     text-align: right; 
     font-style: normal;
-    padding: 215px 230px 365px 845px;
+    padding: 210px 150px 365px 845px;
 }
 .banner-heading{
     font-weight: 700;
@@ -42,11 +42,15 @@ header{
     text-decoration: none;
     padding: 20px 25px;
 }
+
+        /* failure-section */
+
 .failure-section{
     display: flex;
-    width: 1070px;
+    width: 100%;
     height: 720px;
-    padding: 130px 320px 130px 205px;
+    margin-bottom: 200px;
+    /* padding: 130px 320px 130px 205px; */
 }
 .failure-section-bgp{
     background-image: url(../images/person.png);
@@ -54,14 +58,17 @@ header{
     height: 720px;
     width: 50%;
     background-repeat: no-repeat;
+    margin-left: 140px;
+    margin-top: 120px;
 
     
 }
 .failure-section-right_div{
     width: 50%;
-    height: 100%;
-    padding: 235px 10px 83px 5px;
-    margin-left: 80px;
+    padding: 400px 200px 83px 70px;
+    /* margin-left: 60px;
+    margin-top: 120px; */
+    
 }
 .failure-section-right_div_heading{
     font-weight: 700;
@@ -91,27 +98,33 @@ header{
 .fa-check{
     color:#16D887;
 }
+
+                /* plan-section */
+
+.my-plan-section{
+    width: 100%;
+}
+
 .plan_heading{
-    margin: 0px 710px 50px 715px;
     color: #151414;
     font-size: 40px;
     font-weight: 700;
     line-height: 47px;
     letter-spacing: 0em;
-    text-align: center;
-
-    
-    
-}
-.plan_skill_develop{
-    text-align: center;
+    text-align: center; 
     width: 100%;
+    margin-bottom: 100px;
+} 
+
+.plan_skill_develop{
+    width:100%;
     height: 205px;
-    display: flex;
-    margin: 0px 230px 130px 230px;
-}
-.plan_skill_develop div{
-    margin-right: 100px;
+    display:flex;
+    margin-left: 150px;
+    text-align: center;
+} 
+.plan_skill_develop_quater{
+    padding: 0px 50px;
 }
 .plan_skill_develop h5{
     font-size: 30px;
@@ -120,9 +133,7 @@ header{
     letter-spacing: 0em;
     color: #151414;
     margin-bottom: 18px;
-
-
-}
+} 
 .plan_skill_develop p{
     font-size: 25px;
     font-weight: 500;
@@ -130,24 +141,23 @@ header{
     letter-spacing: 0em;
     color: #737272;
 
-}
-.plan_skill_develop img{
-    width: 50px;
-    height: 50px;
+} 
+.plan_skill_develop div img{
+    width: 70px;
+    height: 70px;
     margin-bottom: 24px;
 }
+
+            /* mindset-section */
+            
 .mindset-section{
-    margin: 0px 230px 130px;
-    text-align: left;
-    background-image: url(../images/gradient1.png),url(../images/watch.png);
-    /* position: absolute; */
-    width: 1140px;
+    
+    width:1140px;
     height: 300px;
-    left: 230px;
-    top: 2221.96px;
-    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    margin: 0px 230px 130px 230px;
     border-radius: 8px;
-    padding: 59px 617px 59px 64px;
+    background-color: #005FAC;
+
 }
 .mindset-section h4{
     font-size: 40px;
@@ -156,4 +166,7 @@ header{
     letter-spacing: 0em;
     margin-bottom: 24px;
     color: #FFFFFF;
+}
+.mindset-section-padding{
+    padding: 59px 617px 59px 64px;
 }
