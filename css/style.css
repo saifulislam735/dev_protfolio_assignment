@@ -154,7 +154,8 @@ header{
     
     width:1140px;
     height: 300px;
-    margin: 0px 230px 130px 230px;
+    /* margin: 0px 230px 130px 230px; */
+    margin-left: 230px;
     border-radius: 8px;
     background-color: #005FAC;
 
@@ -169,4 +170,38 @@ header{
 }
 .mindset-section-padding{
     padding: 59px 617px 59px 64px;
+}
+
+        /* .footer-section */
+
+.footer-section{
+    margin-top: 130px;
+    position: absolute;
+    width: 100%;
+    height: 577px;
+    left: 0px;
+    color: white;
+    display: flex;
+    /* top: 2651.96px; */
+
+    /* Dark 01 */
+
+    background: #151414;
+}
+
+.Subscribe-btn{
+    background-color: #005FAC;
+    height: 65px;
+    width: 160px;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+}
+.footer-section-left{
+    width: 50%;
+    padding: 130px 0px 130px 230px;
 }
